@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Modal({ id, header, body, footer, onClose }) {
   return (
     <div className="modal-container">
